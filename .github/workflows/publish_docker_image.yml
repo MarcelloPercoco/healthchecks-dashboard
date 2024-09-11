@@ -31,4 +31,4 @@ jobs: # job name
         with:
           tags: ${{ env.REPO_NAME }}:latest
           platforms: linux/arm64
-          push: true01
+          push: true
