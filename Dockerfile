@@ -1,5 +1,7 @@
 FROM caddy:2-alpine
 
+HEALTHCHECK CMD curl --fail http://localhost
+
 RUN apk update && \
     apk add --no-cache curl
 
